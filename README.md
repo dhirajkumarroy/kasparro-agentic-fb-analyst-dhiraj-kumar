@@ -15,6 +15,16 @@ This project follows Kasparro’s required structure, prompt design, reasoning w
 
 3️⃣ Run the Agentic System
 -> python run.py "Analyze ROAS drop"
+### 4️⃣ View results
+Outputs are generated automatically in the `reports/` folder:
+
+* **reports/insights.json** (Generated hypotheses)
+* **reports/evaluations.json** (Confidence scores)
+* **reports/creatives.json** (New ad copy)
+* **reports/report.md** (Final summary)
+
+Logs are available at:
+* **logs/run_log.json**
 
 4️⃣ View results
 Outputs are generated automatically in:

@@ -1,10 +1,11 @@
 # 🧠 Kasparro Agentic Facebook Analyst — Dhiraj Kumar
-
-** A fully functional, multi-agent system that diagnoses Facebook Ads performance, explains ROAS fluctuations, validates insights quantitatively, and generates improved creative directions — completely autonomous and reproducible. ** 
+```
+A fully functional, multi-agent system that diagnoses Facebook Ads performance, explains ROAS fluctuations, validates insights quantitatively, and generates improved creative directions — completely autonomous and reproducible.
 
 This project follows Kasparro’s required structure, prompt design, reasoning workflow, and output standards.
 
 ---
+```
 
 ## 🚀 Quick Start
 ``` base 
@@ -12,14 +13,15 @@ This project follows Kasparro’s required structure, prompt design, reasoning w
 -> python -m venv .venv
 -> source .venv/bin/activate
 -> # Note: For Windows use -> .venv\Scripts\activate
+```
 
-2️⃣ Install dependencies
-* ** pip install -r requirements.txt**
+### 2️⃣ Install dependencies
+*** pip install -r requirements.txt**
 
-3️⃣ Run the Agentic System
-* ** python run.py "Analyze ROAS drop"**
+### 3️⃣ Run the Agentic System
+*** python run.py "Analyze ROAS drop"**
 
- 4️⃣ View results
+###  4️⃣ View results
 Outputs are generated automatically in the `reports/` folder:
 
 * **reports/insights.json** (Generated hypotheses)
@@ -29,7 +31,6 @@ Outputs are generated automatically in the `reports/` folder:
 
 Logs are available at:
 * **logs/run_log.json**
-```
 
 ## 📁 Project Structure
 

@@ -1,8 +1,10 @@
-### 🧠 Kasparro Agentic Facebook Analyst — Dhiraj Kumar
-A fully functional, multi-agent system that diagnoses Facebook Ads performance, explains ROAS fluctuations, validates insights quantitatively, and generates improved creative directions — completely autonomous and reproducible.
+# 🧠 Kasparro Agentic Facebook Analyst — Dhiraj Kumar
+
+** A fully functional, multi-agent system that diagnoses Facebook Ads performance, explains ROAS fluctuations, validates insights quantitatively, and generates improved creative directions — completely autonomous and reproducible. ** 
 
 This project follows Kasparro’s required structure, prompt design, reasoning workflow, and output standards.
 
+---
 
 ### 🚀 Quick Start
 
@@ -15,6 +17,7 @@ This project follows Kasparro’s required structure, prompt design, reasoning w
 
 3️⃣ Run the Agentic System
 -> python run.py "Analyze ROAS drop"
+
 ### 4️⃣ View results
 Outputs are generated automatically in the `reports/` folder:
 
@@ -28,8 +31,8 @@ Logs are available at:
 
 ## 📁 Project Structure
 
-```text
-kasparro-agentic-fb-analyst-dhiraj/
+```
+* ** kasparro-agentic-fb-analyst-dhiraj/**
 ├── README.md
 ├── requirements.txt
 ├── run.py
@@ -65,45 +68,10 @@ kasparro-agentic-fb-analyst-dhiraj/
 └── tests/
     └── test_evaluator.py
 
-### 📁 Project Structure
+```
+## 🧩 Architecture Overview
 
-kasparro-agentic-fb-analyst-dhiraj/
-├── README.md
-├── requirements.txt
-├── run.py
-├── config/
-│   └── config.yaml
-├── data/
-│   ├── sample_ads.csv
-│   └── data_README.md
-├── prompts/
-│   ├── planner_prompt.md
-│   ├── insight_prompt.md
-│   ├── evaluator_prompt.md
-│   └── creative_prompt.md
-├── src/
-│   ├── agents/
-│   │   ├── planner.py
-│   │   ├── data_agent.py
-│   │   ├── insight_agent.py
-│   │   ├── evaluator_agent.py
-│   │   └── creative_agent.py
-│   ├── orchestrator/
-│   │   └── orchestrator.py
-│   └── utils/
-│       ├── logger.py
-│       └── schemas.py
-├── reports/
-│   ├── insights.json
-│   ├── evaluations.json
-│   ├── creatives.json
-│   └── report.md
-├── logs/
-│   └── run_log.json
-└── tests/
-    └── test_evaluator.py
-
-🧩 Architecture Overview
+```
 Agent Flow Diagram (Mermaid)
 flowchart TD
 
@@ -115,7 +83,8 @@ C --> F[Creative Agent]
 E --> G[Final Report]
 F --> G
 
-🧠 Agent Responsibilities
+```
+## 🧠 Agent Responsibilities
 
 1. Planner Agent
 Breaks user query into structured tasks
@@ -170,7 +139,7 @@ Breaks user query into structured tasks
 
   . Mirrors messaging tone & audience targeting context
 
-📊 Example Output Files
+## 📊 Example Output Files
 ✔ insights.json
 Generated hypotheses:
 [
@@ -230,7 +199,7 @@ Run the included evaluator test:
 -> pytest -q
 
 
-📝 Design Decisions & Reasoning
+## 📝 Design Decisions & Reasoning
 Reproducibility
   . All agents rule-based → deterministic
 
@@ -254,6 +223,6 @@ Observability
   . Traces map exactly to planner’s task order
 
 
-🙌 Author
+## 🙌 Author
 Dhiraj Kumar
 Applied AI Engineer — Agentic Analytics

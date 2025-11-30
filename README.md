@@ -76,10 +76,10 @@ kasparro-agentic-fb-analyst-dhiraj/
 ```
 ## 🧩 Architecture Overview
 
-```
 Agent Flow Diagram (Mermaid)
 flowchart TD
 
+```
 A[User Query] --> B[Planner Agent]
 B --> C[Data Agent]
 C --> D[Insight Agent]
@@ -91,12 +91,10 @@ F --> G
 ```
 ## 🧠 Agent Responsibilities
 
-1. Planner Agent
-Breaks user query into structured tasks
-
-  . Defines retry logic
-
-  . Orchestrates agent order
+### 1. Planner Agent
+* Breaks user query into structured tasks.
+* Defines retry logic.
+* Orchestrates agent execution order.
 
 2. Data Agent
   . Loads + cleans dataset

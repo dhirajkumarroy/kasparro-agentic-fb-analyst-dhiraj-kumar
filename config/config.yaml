@@ -1,0 +1,14 @@
+seed: 42
+data_path: "data/synthetic_fb_ads_undergarments.csv"
+output:
+  reports_dir: "reports"
+  logs_dir: "logs"
+thresholds:
+  low_ctr: 0.02       # CTR threshold for creative suggestions
+  roas_drop_pct: 0.10 # 10% drop considered noteworthy
+  min_spend: 1.0
+analysis:
+  time_window_days: 14
+retry:
+  max_attempts: 2
+  min_confidence: 0.4

@@ -92,22 +92,22 @@ F --> G
 ## 🧠 Agent Responsibilities
 
 ### 1. Planner Agent
-* Breaks user query into structured tasks.
-* Defines retry logic.
-* Orchestrates agent execution order.
+  * Breaks user query into structured tasks.
+  * Defines retry logic.
+  * Orchestrates agent execution order.
 
-2. Data Agent
-  . Loads + cleans dataset
+### 2. Data Agent
+  * Loads + cleans dataset
 
-  . Produces:
+  * Produces:
 
-    . Time series summary
+    *. Time series summary
 
-    . Creative-level summary
+    *. Creative-level summary
 
-    . Audience performance summary
+    *. Audience performance summary
 
-  . Returns structured Python dicts
+  *. Returns structured Python dicts
 
 3. Insight Agent
   . Creates hypotheses using:

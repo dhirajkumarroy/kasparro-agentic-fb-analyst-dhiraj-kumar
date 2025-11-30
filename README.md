@@ -1,10 +1,10 @@
-🧠 Kasparro Agentic Facebook Analyst — Dhiraj Kumar
+### 🧠 Kasparro Agentic Facebook Analyst — Dhiraj Kumar
 A fully functional, multi-agent system that diagnoses Facebook Ads performance, explains ROAS fluctuations, validates insights quantitatively, and generates improved creative directions — completely autonomous and reproducible.
 
 This project follows Kasparro’s required structure, prompt design, reasoning workflow, and output standards.
 
 
-🚀 Quick Start
+### 🚀 Quick Start
 
 1️⃣ Create virtual environment
 -> python -m venv .venv
@@ -26,20 +26,46 @@ Outputs are generated automatically in the `reports/` folder:
 Logs are available at:
 * **logs/run_log.json**
 
-4️⃣ View results
-Outputs are generated automatically in:
-{
-  reports/
-    insights.json
-    evaluations.json
-    creatives.json
-    report.md
-logs/
-    run_log.json
+## 📁 Project Structure
 
-}
+```text
+kasparro-agentic-fb-analyst-dhiraj/
+├── README.md
+├── requirements.txt
+├── run.py
+├── config/
+│   └── config.yaml
+├── data/
+│   ├── sample_ads.csv
+│   └── data_README.md
+├── prompts/
+│   ├── planner_prompt.md
+│   ├── insight_prompt.md
+│   ├── evaluator_prompt.md
+│   └── creative_prompt.md
+├── src/
+│   ├── agents/
+│   │   ├── planner.py
+│   │   ├── data_agent.py
+│   │   ├── insight_agent.py
+│   │   ├── evaluator_agent.py
+│   │   └── creative_agent.py
+│   ├── orchestrator/
+│   │   └── orchestrator.py
+│   └── utils/
+│       ├── logger.py
+│       └── schemas.py
+├── reports/
+│   ├── insights.json
+│   ├── evaluations.json
+│   ├── creatives.json
+│   └── report.md
+├── logs/
+│   └── run_log.json
+└── tests/
+    └── test_evaluator.py
 
-📁 Project Structure
+### 📁 Project Structure
 
 kasparro-agentic-fb-analyst-dhiraj/
 ├── README.md

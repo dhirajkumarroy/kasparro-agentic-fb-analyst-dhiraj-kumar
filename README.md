@@ -8,18 +8,19 @@ This project follows Kasparro’s required structure, prompt design, reasoning w
 ```
 
 ## 🚀 Quick Start
-``` base 
-1️⃣ Create virtual environment
+ 
+### 1️⃣ Create virtual environment
+``` base
 -> python -m venv .venv
 -> source .venv/bin/activate
 -> # Note: For Windows use -> .venv\Scripts\activate
 ```
 
 ### 2️⃣ Install dependencies
-*** pip install -r requirements.txt**
+  pip install -r requirements.txt
 
 ### 3️⃣ Run the Agentic System
-*** python run.py "Analyze ROAS drop"**
+  python run.py "Analyze ROAS drop"
 
 ###  4️⃣ View results
 Outputs are generated automatically in the `reports/` folder:
